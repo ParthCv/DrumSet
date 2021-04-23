@@ -1,0 +1,78 @@
+/******************************TAG_SELECTOR************************************/
+body{
+  background-color: #AED9E0;
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+}
+
+h1{
+  font-size: 5rem;
+  color: #5E6472;
+  text-shadow: 3px 0 #FFA69E;
+}
+
+footer{
+  color: #FAF3DD;
+}
+
+/*****************************CLASS_SELECTOR***********************************/
+
+.set {
+  margin: 10% auto;
+}
+
+.drum{
+  outline: none;
+  border-radius: 15px;
+  border: 10px solid #5E6472;
+  font-family: 'Fugaz One', cursive;
+  color: #AED9E0;
+  font-size: 4rem;
+  margin: 10px;
+  width: 125px;
+  height: 125px;
+  display: inline-block;
+  text-shadow: 3px 0 #5E6472;
+}
+
+.w {
+  background-image: url('images/tom1.png');
+}
+
+.a {
+  background-image: url('images/tom2.png');
+}
+
+.s {
+  background-image: url('images/tom3.png');
+}
+
+.d {
+  background-image: url('images/tom4.png');
+}
+
+.j {
+  background-image: url('images/snare.png');
+}
+
+.k {
+  background-image: url('images/crash.png');
+}
+
+.l {
+  background-image: url('images/kick.png');
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
